@@ -1,0 +1,122 @@
+.header{
+    display: flex;
+    top:0;
+    position: sticky;
+    align-items: center;
+    background-color: #1C252E;
+    width: 100%;
+    z-index: 100;
+}
+.header__left{
+    display: flex;
+    margin:10px 20px 10px 70px;
+}
+.header__logo {
+   height: 40px;
+   margin-left: 60px;
+}
+.header__searchbox{
+    display: flex;
+    flex: 1;
+    margin: 10px;
+}
+.header__searchInput{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    background: #28323C;
+    outline-width: 0;
+}
+.header__searchIcon{
+    padding: 5px;
+    height: 22px !important;
+    background-color: #41A124;
+}
+.header__middle{
+    display: flex;
+
+}
+
+.header__user{
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+    border: 1px solid #474A54;
+    background-color:  #474A54;
+    color: #41A124;
+    margin: 20px;
+}
+.header__user >input{
+    border: none;
+    padding: 8px;
+    outline-width: 0;
+    background-color:#474A54;
+}
+.header__passwordBox{
+    display: flex;
+    flex-direction: column;
+    
+}
+.header__password{
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+    border: 1px solid #474A54;
+    background-color:  #474A54;
+    color: #41A124;
+    margin-left: 8px;
+    margin-top: 20px;
+     
+}
+.header__password >input{
+    border: none;
+    padding: 8px;
+    outline-width: 0;
+    background-color:#474A54;
+}
+
+.header__passwordBox > a{
+
+    font-size: 10px;
+    color: lightgray;
+    text-align: right;
+    text-decoration: none;
+}
+.header__passwordBox >a:hover{
+    color: #41A124;
+}
+
+.header__personIcon{
+    color: #41A124;
+}
+.header__lockIcon{
+    color: #41A124;
+}
+
+.header__loginbtn > button {
+    display: flex;
+    align-items: center;
+    background-color: #474A54 ;
+    color: #41A124 ;
+    border:2px solid;
+    text-transform: inherit;
+    margin-left: 10px ;
+    margin-right: 5px;
+    
+}
+.header__registerbtn > button{
+    display: flex;
+    align-items: center;
+    background-color: #474A54 ;
+    color: #41A124 ;
+    border:2px solid #41A124 ;
+    margin-right: 50px;
+    text-transform: inherit;
+
+}
+.header__registerbtn > button:hover{
+    background-color: #41A124;
+    color: white;
+    
+}
