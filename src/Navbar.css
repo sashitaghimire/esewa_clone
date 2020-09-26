@@ -1,0 +1,13 @@
+.navbar{
+    display: flex;
+    background-color: #41A124;
+    padding: 8px 10px 0px 70px;
+    
+}
+.navbar >button{
+    text-transform: inherit;
+    
+}
+.navbar >button:hover{
+    color: white
+}

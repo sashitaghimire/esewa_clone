@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
 import Header from './Header';
+import Navbar from './Navbar';
+import Container from './Container';
+import PopularServices from './PopularServices';
 
 function App() {
   return (
@@ -9,9 +12,13 @@ function App() {
       <Header />
 
       {/* navbar */}
+      <Navbar/>
+      {/* container */}
+      <Container />
       {/* sidemenu */}
       {/* carousel */}
       {/* popular service */}
+      <PopularServices />
       {/* card */}
     </div>
   );

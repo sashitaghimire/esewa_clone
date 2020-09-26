@@ -1,0 +1,8 @@
+.sidemenu{
+    display: flex;
+    flex: 0.20;
+    background-color: white;
+    margin:20px 30px 5px 70px;
+    max-width: fit-content;
+    
+}

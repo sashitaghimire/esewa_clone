@@ -1,0 +1,11 @@
+
+.image__carousel{
+    display: flex;
+    flex:0.80;
+    flex-direction: column;
+    margin: 20px 20px  10px;
+}
+.image__carousels >img{
+    height: 400px;
+    width: fit-content;
+}

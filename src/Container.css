@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+}
+
+.container__left{
+    display: flex;
+    align-items: center !important;
+    margin-right: 0px !important;
+    position: sticky;
+}
+.call__button{
+    background-color:  #41A124;
+    border: none;
+    color: white;
+    outline-width: 0;
+}
+.container__left > button:hover{
+    background-color: lightgray;
+}
