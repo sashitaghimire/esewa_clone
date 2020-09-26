@@ -1,29 +1,29 @@
-.popularServices{
+.category{
     display: flex;
     align-items: center;
 }
-.popularServices__right{
+.category__right{
     display: flex;
     flex-direction: column;
     margin: 20px 30px 20px 70px;
 }
-.popularServices__middle{
+.category__middle{
     display: flex;
     flex: 1;
 }
-.popularServices__left{
+.category__left{
     display: flex;
     margin-right: 50px;
     padding: 20px;
     text-transform: inherit;
 }
-.popularServices__left > button{
+.category__left > button{
     background-color:#EFF8EC ;
     color:#88CC74 ;
     text-transform: inherit;
     font-weight: bold;
 }
-.popularServices__left >button:hover{
+.category__left >button:hover{
     background-color:#41A124;
     color: white;
 }

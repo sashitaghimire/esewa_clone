@@ -4,10 +4,12 @@ import Sidemenu from './Sidemenu';
 import Carousels from './Carousels';
 import CallIcon from '@material-ui/icons/Call';
 
+
 function Container() {
     return (
         <div className="container">
-            {/* sidemenu */}
+           
+                {/* sidemenu */}
             <Sidemenu />
             {/* carousel */}
             <Carousels />
@@ -16,8 +18,9 @@ function Container() {
                 <button className="call__button">
                 <CallIcon />
                 </button>
-
             </div>
+              
+               
 
         </div>
     )

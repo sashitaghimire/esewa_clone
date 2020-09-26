@@ -3,7 +3,9 @@ import './App.css';
 import Header from './Header';
 import Navbar from './Navbar';
 import Container from './Container';
+import Services from './Services';
 import PopularServices from './PopularServices';
+
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       {/* popular service */}
       <PopularServices />
       {/* card */}
+      
+      <Services />
     </div>
   );
 }

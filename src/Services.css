@@ -1,0 +1,17 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.services__card{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.services__right{
+    display: flex;
+    margin: 20px 30px 20px 70px;
+}
